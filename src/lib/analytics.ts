@@ -11,7 +11,7 @@ export const initMixpanel = () => {
     try {
         // 初始化 Mixpanel
         mixpanel.init(MIXPANEL_TOKEN, {
-            debug: process.env.NODE_ENV === 'development',
+            debug: false,
             track_pageview: false,
             ignore_dnt: true,
             persistence: "localStorage"

@@ -31,7 +31,6 @@ jobs:
       - name: Build & Export
         run: |
           npm run build
-          npm run export
 
       # 5. 設定 AWS 認證
       - name: Configure AWS credentials
